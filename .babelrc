@@ -1,0 +1,29 @@
+{
+    "plugins": [
+        [
+            "module:react-native-dotenv",
+            {
+                "moduleName": "@env",
+                "path": ".env",
+                "blacklist": null,
+                "whitelist": [
+                    "ISSUER",
+                    "CLIENT_ID",
+                    "REDIRECT_URL",
+                    "READ_ACCESS",
+                    "SU_AUTHORIZATION",
+                    "SU_TOKEN",
+                    "SU_REVOCATION",
+                    "PR_AUTHORIZATION",
+                    "PR_TOKEN",
+                    "PR_REVOCATION",
+                    "PE_AUTHORIZATION",
+                    "PE_TOKEN",
+                    "PE_REVOCATION"
+                ],
+                "safe": false,
+                "allowUndefined": true
+            }
+        ]
+    ]
+}
