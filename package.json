@@ -10,6 +10,9 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "appcenter": "4.0.2",
+    "appcenter-analytics": "4.0.2",
+    "appcenter-crashes": "4.0.2",
     "buffer": "^6.0.3",
     "link": "^0.1.5",
     "react": "17.0.1",
